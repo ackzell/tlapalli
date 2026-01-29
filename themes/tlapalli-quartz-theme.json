@@ -237,7 +237,7 @@
 			"scope": "support.class, entity.name.class, entity.name.type.class",
 			"settings": { "foreground": "#ff70ad" }
 		},
-		{ "scope": "meta.class", "settings": { "foreground": "#ffc4e6" } },
+		{ "scope": "meta.class", "settings": { "foreground": "#ffc4e6cc" } },
 		{
 			"scope": "keyword.other.special-method",
 			"settings": { "foreground": "#7f3d5f" }
@@ -301,12 +301,12 @@
 			"scope": "punctuation.section.embedded, variable.interpolation",
 			"settings": { "foreground": "#d96b94ee" }
 		},
-		{ "scope": "invalid.illegal", "settings": { "foreground": "#ffc4e6" } },
+		{ "scope": "invalid.illegal", "settings": { "foreground": "#ffc4e6cc" } },
 		{ "scope": "invalid.broken", "settings": { "foreground": "#0a0509" } },
-		{ "scope": "invalid.deprecated", "settings": { "foreground": "#ffc4e6" } },
+		{ "scope": "invalid.deprecated", "settings": { "foreground": "#ffc4e6cc" } },
 		{
 			"scope": "invalid.unimplemented",
-			"settings": { "foreground": "#ffc4e6" }
+			"settings": { "foreground": "#ffc4e6cc" }
 		}
 	]
 }

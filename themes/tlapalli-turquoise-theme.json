@@ -189,7 +189,7 @@
 		"terminal.ansiRed": "#04b4ab",
 		"terminal.ansiMagenta": "#70bdbade",
 		"terminal.ansiYellow": "#8fd9d6",
-		"terminal.ansiWhite": "#9de3e0",
+		"terminal.ansiWhite": "#9de3e0bf",
 		"terminal.background": "#050909",
 		"terminal.foreground": "#70bdbade",
 		"terminalCursor.background": "#050909",
@@ -248,10 +248,10 @@
 			"scope": "string, constant.other.symbol, entity.other.inherited-class",
 			"settings": { "foreground": "#b8ece9bf" }
 		},
-		{ "scope": "constant.numeric", "settings": { "foreground": "#9de3e0" } },
+		{ "scope": "constant.numeric", "settings": { "foreground": "#9de3e0bf" } },
 		{ "scope": "none", "settings": { "foreground": "#7fcbc8af" } },
 		{ "scope": "none", "settings": { "foreground": "#7fcbc8af" } },
-		{ "scope": "constant", "settings": { "foreground": "#9de3e0" } },
+		{ "scope": "constant", "settings": { "foreground": "#9de3e0bf" } },
 		{ "scope": "entity.name.tag", "settings": { "foreground": "#4a806d" } },
 		{
 			"scope": "entity.other.attribute-name",

@@ -232,7 +232,7 @@
 		{ "scope": "variable", "settings": { "foreground": "#e7a871ee" } },
 		{
 			"scope": "entity.name.function, meta.require, support.function.any-method",
-			"settings": { "foreground": "#ffd9b8", "fontStyle": "italic" }
+			"settings": { "foreground": "#ffd9b8f3", "fontStyle": "italic" }
 		},
 		{
 			"scope": "support.class, entity.name.class, entity.name.type.class",

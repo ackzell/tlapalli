@@ -215,7 +215,7 @@
   "tokenColors": [
     {
       "scope": "variable.parameter.function",
-      "settings": { "foreground": "#cd0808ee" }
+      "settings": { "foreground": "#d9d9d9ee" }
     },
     {
       "scope": "comment, punctuation.definition.comment",
@@ -223,10 +223,10 @@
     },
     {
       "scope": "punctuation.definition.string, punctuation.definition.variable, punctuation.definition.parameters, punctuation.definition.array",
-      "settings": { "foreground": "#e0e0e098" }
+      "settings": { "foreground": "#fafafacf" }
     },
     { "scope": "none", "settings": { "foreground": "#a5a29e" } },
-    { "scope": "keyword.operator", "settings": { "foreground": "#fafafa" } },
+    { "scope": "keyword.operator", "settings": { "foreground": "#fdfdfdcf" } },
     {
       "scope": "keyword",
       "settings": { "foreground": "#8a8a8aee", "fontStyle": "italic" }
@@ -234,7 +234,7 @@
     { "scope": "variable", "settings": { "foreground": "#d9d9d9ee" } },
     {
       "scope": "entity.name.function, meta.require, support.function.any-method",
-      "settings": { "foreground": "#f7f7f7", "fontStyle": "italic" }
+      "settings": { "foreground": "#f4f4f4ee", "fontStyle": "italic" }
     },
     {
       "scope": "support.class, entity.name.class, entity.name.type.class",
