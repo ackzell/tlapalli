@@ -1,4 +1,4 @@
-# tlapalli 
+# Tlapalli 
 
 <p align="center">
   <br>
