@@ -1,13 +1,30 @@
 {
   "name": "tlapalli",
   "displayName": "Tlapalli",
-  "description": "Tlapalli means color in Nahuatl",
+  "description": "Tlapalli means color in Nahuatl. These are some variations of a monochromatic dark theme. These minerals are found in Mexico",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.108.1"
   },
   "categories": [
     "Themes"
+  ],
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "Night Theme",
+    "Mono",
+    "Monochromatic",
+    "Black",
+    "Amber",
+    "Turquoise",
+    "Pink",
+    "Blue",
+    "Purple",
+    "Green",
+    "Red",
+    "Gem stone",
+    "Mineral"
   ],
   "contributes": {
     "themes": [
