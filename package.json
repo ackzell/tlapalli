@@ -2,7 +2,7 @@
   "name": "tlapalli",
   "displayName": "Tlapalli",
   "description": "Tlapalli means color in Nahuatl. Monochromatic theme with colored variations. Inspired by minerals found in Mexico",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "ackzell",
   "preview": true,
   "icon": "logo.jpg",
@@ -77,6 +77,46 @@
         "label": "Tlapalli 07: Fire Opal",
         "uiTheme": "vs-dark",
         "path": "./themes/tlapalli-fire-opal-theme.json"
+      },
+      {
+        "label": "Tlapalli l-00: Obsidian Light",
+        "uiTheme": "vs",
+        "path": "./themes/tlapalli-obsidian-light-theme.json"
+      },
+      {
+        "label": "Tlapalli l-01: Gold Light",
+        "uiTheme": "vs",
+        "path": "./themes/tlapalli-gold-light-theme.json"
+      },
+      {
+        "label": "Tlapalli l-02: Turquoise Light",
+        "uiTheme": "vs",
+        "path": "./themes/tlapalli-turquoise-light-theme.json"
+      },
+      {
+        "label": "Tlapalli l-03: Quartz Light",
+        "uiTheme": "vs",
+        "path": "./themes/tlapalli-quartz-light-theme.json"
+      },
+      {
+        "label": "Tlapalli l-04: Lapis Lazuli Light",
+        "uiTheme": "vs",
+        "path": "./themes/tlapalli-lapis-lazuli-light-theme.json"
+      },
+      {
+        "label": "Tlapalli l-05: Amethyst Light",
+        "uiTheme": "vs",
+        "path": "./themes/tlapalli-amethyst-light-theme.json"
+      },
+      {
+        "label": "Tlapalli l-06: Jade Light",
+        "uiTheme": "vs",
+        "path": "./themes/tlapalli-jade-light-theme.json"
+      },
+      {
+        "label": "Tlapalli l-07: Fire Opal Light",
+        "uiTheme": "vs",
+        "path": "./themes/tlapalli-fire-opal-light-theme.json"
       }
     ]
   }
