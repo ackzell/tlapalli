@@ -11,7 +11,7 @@
 A collection of monochromatic dark and light themes in different hues. Each theme uses lightness and font styles (like _italic_ or **bold**) to distinguish tokens, rather than relying on multiple colors to do the job.
 Dark themes are especially useful (to me) when working in a low light environment. The idea is not to have excessive contrast on the text, but also be able to have a darker background.
 
-<img width="4544" height="1832" alt="perspective all compressed" src="https://github.com/user-attachments/assets/9274f25b-5ee8-4078-b131-d21311bc97a7" />
+<img width="100%" alt="perspective all compressed" src="https://github.com/user-attachments/assets/9274f25b-5ee8-4078-b131-d21311bc97a7" />
 
 Fun fact: these are all minerals that you can find in Mexico 🤓
 
@@ -56,25 +56,25 @@ I thought having a light version for the different variants would be nice, so I 
 They are essentially the "inverse" of the dark themes, with a few manual changes I will be making before releasing a "stable" theme.
 
 ## l-00: Obsidian Light
-<img width="1781" height="1016" alt="obsidian light" src="https://github.com/user-attachments/assets/b4d7e250-1a36-4a9d-9dcb-1ade98352702" />
+<img width="100%" alt="obsidian light" src="https://github.com/user-attachments/assets/b4d7e250-1a36-4a9d-9dcb-1ade98352702" />
 
 ## l-01: Gold Light
-<img width="1781" height="1016" alt="gold light" src="https://github.com/user-attachments/assets/d0a05ff4-f22a-47e5-bcf9-c9e53b1bd117" />
+<img width="100%" alt="gold light" src="https://github.com/user-attachments/assets/d0a05ff4-f22a-47e5-bcf9-c9e53b1bd117" />
 
 ## l-02: Turquoise Light
-<img width="1781" height="1016" alt="turquoise light" src="https://github.com/user-attachments/assets/28bec171-2e08-4dba-9b17-f7f1810c47c8" />
+<img width="100%" alt="turquoise light" src="https://github.com/user-attachments/assets/28bec171-2e08-4dba-9b17-f7f1810c47c8" />
 
 ## l-03: Quartz Light
-<img width="1781" height="1016" alt="quartz light" src="https://github.com/user-attachments/assets/c303ac82-4635-49df-937b-b7c7014dd314" />
+<img width="100%" alt="quartz light" src="https://github.com/user-attachments/assets/c303ac82-4635-49df-937b-b7c7014dd314" />
 
 ## l-04: Lapis Lazuli Light
-<img width="1781" height="1016" alt="lapis lazuli light" src="https://github.com/user-attachments/assets/965cf96b-bdf0-4c32-a7c1-c29250439eeb" />
+<img width="100%" alt="lapis lazuli light" src="https://github.com/user-attachments/assets/965cf96b-bdf0-4c32-a7c1-c29250439eeb" />
 
 ## l-05: Amethyst Light
-<img width="1781" height="1016" alt="amethyst light" src="https://github.com/user-attachments/assets/565483f3-d760-45a8-b4bc-a6280141f8bf" />
+<img width="100%" alt="amethyst light" src="https://github.com/user-attachments/assets/565483f3-d760-45a8-b4bc-a6280141f8bf" />
 
 ## l-06: Jade Light
-<img width="1781" height="1016" alt="jade light" src="https://github.com/user-attachments/assets/6d81ce17-5175-4efe-9466-8aedbebca6ba" />
+<img width="100%" alt="jade light" src="https://github.com/user-attachments/assets/6d81ce17-5175-4efe-9466-8aedbebca6ba" />
 
 ## l-07: Fire Opal Light
-<img width="1781" height="1016" alt="fire opal light" src="https://github.com/user-attachments/assets/51f19a31-1fe8-4cba-9ab2-51a3d057a1e0" />
+<img width="100%" alt="fire opal light" src="https://github.com/user-attachments/assets/51f19a31-1fe8-4cba-9ab2-51a3d057a1e0" />
