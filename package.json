@@ -6,11 +6,15 @@
   "publisher": "ackzell",
   "preview": true,
   "icon": "logo.jpg",
+  "scripts": {
+      "prepare": "is-ci || husky install",
+      "cz": "exec < /dev/tty && npx cz --hook || true"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ackzell/tlapalli-vscode-theme"
   },
-   "bugs": {
+  "bugs": {
     "url": "https://github.com/ackzell/tlapalli-vscode-theme/issues"
   },
   "engines": {
@@ -23,6 +27,7 @@
     "Theme",
     "Dark Theme",
     "Night Theme",
+    "Light Theme",
     "Mono",
     "Monochromatic",
     "Black",
@@ -119,5 +124,15 @@
         "path": "./themes/tlapalli-fire-opal-light-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.1.7",
+    "is-ci": "^4.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
