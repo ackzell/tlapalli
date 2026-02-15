@@ -7,7 +7,7 @@
   "preview": true,
   "icon": "logo.jpg",
   "scripts": {
-    "prepare": "is-ci || husky install",
+    "prepare": "is-ci || husky",
     "cz": "exec < /dev/tty && npx cz --hook || true",
     "tag": "commit-and-tag-version -- --no-verify"
   },
