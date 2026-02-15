@@ -202,7 +202,7 @@
 		"titleBar.border": "#ebe5e9",
 		"titleBar.inactiveBackground": "#faf5f9",
 		"tree.indentGuidesStroke": "#e2d9de",
-		"window.activeBorder": "#faf5f9",
+		"window.activeBorder": "#8c0070",
 		"listFilterWidget.noMatchesOutline": "#c02100",
 		"list.errorForeground": "#c02100",
 		"list.warningForeground": "#af6400",
