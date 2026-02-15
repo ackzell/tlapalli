@@ -207,9 +207,9 @@
 		"listFilterWidget.noMatchesOutline": "#c02100",
 		"list.errorForeground": "#c02100",
 		"list.warningForeground": "#af6400",
-		"editorBracketHighlight.foreground1": "#080808",
-		"editorBracketHighlight.foreground2": "#454444c9",
-		"editorBracketHighlight.foreground3": "#73737398",
+		"editorBracketHighlight.foreground1": "#3a3938",
+		"editorBracketHighlight.foreground2": "#6a6968c9",
+		"editorBracketHighlight.foreground3": "#94939198",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#9e0505",
 		"editor.inactiveSelectionBackground": "#00000011"
 	},
