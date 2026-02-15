@@ -196,7 +196,7 @@
 		"terminalCursor.background": "#f2f5f8",
 		"terminalCursor.foreground": "#0f3057",
 		"textLink.activeForeground": "#00243b",
-		"textLink.foreground": "#00243b",
+		"textLink.foreground": "#0063a1",
 		"textPreformat.foreground": "#346180",
 		"titleBar.activeBackground": "#f2f5f8",
 		"titleBar.activeForeground": "#346180",
