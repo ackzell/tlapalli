@@ -7,8 +7,9 @@
   "preview": true,
   "icon": "logo.jpg",
   "scripts": {
-      "prepare": "is-ci || husky install",
-      "cz": "exec < /dev/tty && npx cz --hook || true"
+    "prepare": "is-ci || husky install",
+    "cz": "exec < /dev/tty && npx cz --hook || true",
+    "tag": "commit-and-tag-version -- --no-verify"
   },
   "repository": {
     "type": "git",
@@ -126,6 +127,7 @@
     ]
   },
   "devDependencies": {
+    "commit-and-tag-version": "^12.6.1",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^9.1.7",
     "is-ci": "^4.1.0"
