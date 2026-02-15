@@ -1,4 +1,4 @@
-name: Publish Tlapalli VSCode Theme
+name: Publish VSCode Theme
 
 on:
   push:
@@ -20,12 +20,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
       
-      - name: Install dependencies
-        run: npm ci
-      
-      - name: Install vsce
+      - name: Install vsce (VSCode Extension Manager)
         run: npm install -g @vscode/vsce
       
       - name: Get version from tag
