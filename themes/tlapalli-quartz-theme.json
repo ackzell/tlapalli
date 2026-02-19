@@ -208,8 +208,8 @@
 		"list.errorForeground": "#ff603f",
 		"list.warningForeground": "#ffb450",
 		"editorBracketHighlight.foreground1": "#ff7ab8",
-		"editorBracketHighlight.foreground2": "#d559a3",
-		"editorBracketHighlight.foreground3": "#b84987",
+		"editorBracketHighlight.foreground2": "#c55f8f",
+		"editorBracketHighlight.foreground3": "#7c3b5a",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#fa6161",
 		"editor.inactiveSelectionBackground": "#842d6333"
 	},
@@ -252,7 +252,7 @@
 		{ "scope": "constant.numeric", "settings": { "foreground": "#ff99c2" } },
 		{ "scope": "none", "settings": { "foreground": "#ff85adaf" } },
 		{ "scope": "none", "settings": { "foreground": "#ff85adaf" } },
-		{ "scope": "constant", "settings": { "foreground": "#ff99c2" } },
+		{ "scope": "constant", "settings": { "foreground": "#f46ea4" } },
 		{ "scope": "entity.name.tag", "settings": { "foreground": "#804a66" } },
 		{
 			"scope": "entity.other.attribute-name",
