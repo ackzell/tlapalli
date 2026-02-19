@@ -230,7 +230,7 @@
 		{ "scope": "none", "settings": { "foreground": "#85f0a8" } },
 		{ "scope": "keyword.operator", "settings": { "foreground": "#a3ffc4" } },
 		{ "scope": "keyword", "settings": { "foreground": "#5a9d7aee", "fontStyle": "italic" } },
-		{ "scope": "variable", "settings": { "foreground": "#71e7a388" } },
+		{ "scope": "variable", "settings": { "foreground": "#8fc2a2" } },
 		{
 			"scope": "entity.name.function, meta.require, support.function.any-method",
 			"settings": { "foreground": "#7fcb99", "fontStyle": "italic" }
