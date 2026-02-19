@@ -244,7 +244,7 @@
 			"settings": { "foreground": "#3d7f7d" }
 		},
 		{ "scope": "storage", "settings": { "foreground": "#04b4abae" } },
-		{ "scope": "support.function", "settings": { "foreground": "#04b4ab" } },
+		{ "scope": "support.function", "settings": { "foreground": "#2d7e76" } },
 		{
 			"scope": "string, constant.other.symbol, entity.other.inherited-class",
 			"settings": { "foreground": "#b8ece9bf" }
