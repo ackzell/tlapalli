@@ -256,7 +256,7 @@
 		{ "scope": "entity.name.tag", "settings": { "foreground": "#4a6580" } },
 		{
 			"scope": "entity.other.attribute-name",
-			"settings": { "foreground": "#7faccb" }
+			"settings": { "foreground": "#4885ae" }
 		},
 		{
 			"scope": "entity.other.attribute-name.id, punctuation.definition.entity",

@@ -252,11 +252,11 @@
 		{ "scope": "constant.numeric", "settings": { "foreground": "#9de3e0bf" } },
 		{ "scope": "none", "settings": { "foreground": "#7fcbc8af" } },
 		{ "scope": "none", "settings": { "foreground": "#7fcbc8af" } },
-		{ "scope": "constant", "settings": { "foreground": "#9de3e0bf" } },
-		{ "scope": "entity.name.tag", "settings": { "foreground": "#4a806d" } },
+		{ "scope": "constant", "settings": { "foreground": "#09aba3" } },
+		{ "scope": "entity.name.tag", "settings": { "foreground": "#2f6f6b" } },
 		{
 			"scope": "entity.other.attribute-name",
-			"settings": { "foreground": "#7fcbc8af" }
+			"settings": { "foreground": "#349899" }
 		},
 		{
 			"scope": "entity.other.attribute-name.id, punctuation.definition.entity",

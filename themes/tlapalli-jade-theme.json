@@ -254,10 +254,10 @@
 		{ "scope": "none", "settings": { "foreground": "#7fcb99" } },
 		{ "scope": "none", "settings": { "foreground": "#7fcb99" } },
 		{ "scope": "constant", "settings": { "foreground": "#9de3b8" } },
-		{ "scope": "entity.name.tag", "settings": { "foreground": "#4a805d" } },
+		{ "scope": "entity.name.tag", "settings": { "foreground": "#3d694c" } },
 		{
 			"scope": "entity.other.attribute-name",
-			"settings": { "foreground": "#7fcb99" }
+			"settings": { "foreground": "#7fcb82df" }
 		},
 		{
 			"scope": "entity.other.attribute-name.id, punctuation.definition.entity",
