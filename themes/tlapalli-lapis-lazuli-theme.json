@@ -252,7 +252,7 @@
 		{ "scope": "constant.numeric", "settings": { "foreground": "#99d1f7" } },
 		{ "scope": "none", "settings": { "foreground": "#7faccb" } },
 		{ "scope": "none", "settings": { "foreground": "#7faccb" } },
-		{ "scope": "constant", "settings": { "foreground": "#99d1f6" } },
+		{ "scope": "constant", "settings": { "foreground": "#55b2ef" } },
 		{ "scope": "entity.name.tag", "settings": { "foreground": "#4a6580" } },
 		{
 			"scope": "entity.other.attribute-name",
