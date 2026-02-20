@@ -1,14 +1,46 @@
 # Tlapalli 
 
+> **[tlah-PAH-lee](https://nahuatl.wired-humanities.org/content/tlapalli)** in Nahuatl means color
+
+
 <p align="center">
   <br>
   <img src="logo.jpg" alt="tlapalli-vscode-theme logo" height="300"  />
 </p>
 
-> **[tlah-PAH-lee](https://nahuatl.wired-humanities.org/content/tlapalli)** in Nahuatl means color
+<h3 align="center">VSCode Marketplace</h3>
+<p align="center">
+    <a href="https://marketplace.visualstudio.com/items?itemName=ackzell.tlapalli">
+        <img src="https://vsmarketplacebadges.dev/version-short/ackzell.tlapalli.jpg?style=&colorA=020202&colorB=fdfdfd&label=version" alt="Version">
+    </a>&nbsp;
+    <a href="https://marketplace.visualstudio.com/items?itemName=ackzell.tlapalli">
+        <img src="https://vsmarketplacebadges.dev/rating-short/ackzell.tlapalli.jpg?style=&colorA=090705&colorB=80684e&label=rating" alt="Rating">
+    </a>&nbsp;
+    <a href="https://marketplace.visualstudio.com/items?itemName=ackzell.tlapalli">
+        <img src="https://vsmarketplacebadges.dev/installs-short/ackzell.tlapalli.jpg?style=&colorA=060407&colorB=9482ac&label=installs" alt="Installs">
+    </a>&nbsp;
+    <a href="https://marketplace.visualstudio.com/items?itemName=ackzell.tlapalli">
+        <img src="https://vsmarketplacebadges.dev/downloads-short/ackzell.tlapalli.jpg?style=&colorA=050909&colorB=3d7f7d&label=downloads" alt="Downloads">
+    </a>
+</p>
 
+<hr>
+
+<h3 align="center">Open VSX Registry</h3>
+<p align="center">
+<a href="https://marketplace.visualstudio.com/items?itemName=ackzell.tlapalli">
+        <img src="https://img.shields.io/open-vsx/v/ackzell/tlapalli?style=&colorA=070a0d&colorB=3d5f7f&label=version" alt="Version">
+    </a>
+   <a href="https://marketplace.visualstudio.com/items?itemName=ackzell.tlapalli">
+        <img src="https://img.shields.io/open-vsx/dt/ackzell/tlapalli?style=&colorA=0a0509&colorB=7f3d5f&label=downloads" alt="Downloads">
+    </a>
+    <a href="https://marketplace.visualstudio.com/items?itemName=ackzell.tlapalli">
+        <img src="https://img.shields.io/open-vsx/rating/ackzell/tlapalli?style=&colorA=070a0d&colorB=3d7f5f&label=rating" alt="Rating">
+    </a>
+</p>
 
 A collection of monochromatic dark and light themes in different hues. Each theme uses lightness and font styles (like _italic_ or **bold**) to distinguish tokens, rather than relying on multiple colors to do the job.
+
 Dark themes are especially useful (to me) when working in a low light environment. The idea is not to have excessive contrast on the text, but also be able to have a darker background.
 
 <img width="100%" alt="perspective all compressed" src="https://github.com/user-attachments/assets/9274f25b-5ee8-4078-b131-d21311bc97a7" />
