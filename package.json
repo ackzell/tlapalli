@@ -2,14 +2,16 @@
   "name": "tlapalli",
   "displayName": "Tlapalli",
   "description": "Tlapalli means color in Nahuatl. Monochromatic theme with colored variations. Inspired by minerals found in Mexico",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "publisher": "ackzell",
   "preview": true,
   "icon": "logo.jpg",
   "scripts": {
     "prepare": "is-ci || husky",
     "cz": "exec < /dev/tty && npx cz --hook || true",
-    "tag": "commit-and-tag-version -- --no-verify"
+    "tag": "commit-and-tag-version -- --no-verify",
+    "tag:minor": "commit-and-tag-version --release-as minor -- --no-verify",
+    "tag:major": "commit-and-tag-version --release-as major -- --no-verify"
   },
   "repository": {
     "type": "git",
