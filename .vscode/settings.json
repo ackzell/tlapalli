@@ -2,6 +2,24 @@
     "workbench.colorTheme": "Default Dark Modern",
     "conventionalCommits.scopes": [
         "themes",
-        "light-themes"
+        "light-themes",
+        "dark-themes",
+        "00-obsidian",
+        "01-gold",
+        "02-turquoise",
+        "03-quartz",
+        "04-lapis-lazuli",
+        "05-amethyst",
+        "06-jade",
+        "07-fire-opal",
+        "l-00-obsidian-light",
+        "l-01-gold-light",
+        "l-02-turquoise-light",
+        "l-03-quartz-light",
+        "l-04-lapis-lazuli-light",
+        "l-05-amethyst-light",
+        "l-06-jade-light",
+        "l-07-fire-opal-light",
+        "gh-actions"
     ]
 }
