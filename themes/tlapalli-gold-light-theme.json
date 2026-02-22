@@ -1,5 +1,5 @@
 {
-	"name": "Tlapalli 01-l: Gold Light",
+	"name": "Tlapalli l-01: Gold Light",
 	"type": "light",
 	"colors": {
 		"activityBar.activeBorder": "#faf8f6",
@@ -42,7 +42,7 @@
 		"editor.foreground": "#756042",
 		"editor.hoverHighlightBackground": "#f2e8e577",
 		"editor.lineHighlightBackground": "#f2ece7",
-		"editor.placeholder.foreground": "#d8c29e",
+		"editor.placeholder.foreground": "#cabba2",
 		"editor.selectionBackground": "#d2a47b77",
 		"editorBracketMatch.background": "#faf8f6",
 		"editorBracketMatch.border": "#d2c8b8",

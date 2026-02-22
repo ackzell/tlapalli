@@ -1,5 +1,5 @@
 {
-	"name": "Tlapalli 06-l: Jade Light",
+	"name": "Tlapalli l-06: Jade Light",
 	"type": "light",
 	"colors": {
 		"activityBar.activeBorder": "#f4f8f6",
@@ -38,10 +38,10 @@
 		"editor.findMatchHighlightBackground": "#f4f8f67c",
 		"editor.findMatchHighlightBorder": "#b8d2c3",
 		"editor.foldBackground": "#f4f8f66e",
-		"editor.foreground": "#529577",
+		"editor.foreground": "#3c7159",
 		"editor.hoverHighlightBackground": "#d5e5de77",
 		"editor.lineHighlightBackground": "#e7f2ec",
-		"editor.placeholder.foreground": "#a2d9c3",
+		"editor.placeholder.foreground": "#80c2a2",
 		"editor.selectionBackground": "#7bd2a077",
 		"editorBracketMatch.background": "#f4f8f6",
 		"editorBracketMatch.border": "#b8d2c3",
@@ -67,7 +67,7 @@
 		"editorWidget.border": "#c7e1d2",
 		"editorHoverWidget.statusBarBackground": "#f4f8f6",
 		"focusBorder": "#f4f8f6",
-		"foreground": "#7ca390",
+		"foreground": "#80c2a2",
 		"gitDecoration.ignoredResourceForeground": "#c6d6da",
 		"gitDecoration.addedResourceForeground": "#266f43",
 		"gitDecoration.modifiedResourceForeground": "#266f43",
@@ -208,8 +208,8 @@
 		"list.errorForeground": "#c02100",
 		"list.warningForeground": "#af6400",
 		"editorBracketHighlight.foreground1": "#14a245",
-		"editorBracketHighlight.foreground2": "#5ec98d",
-		"editorBracketHighlight.foreground3": "#95d9b8",
+		"editorBracketHighlight.foreground2": "#22c76a",
+		"editorBracketHighlight.foreground3": "#83c7a6",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#9e0505",
 		"editor.inactiveSelectionBackground": "#7bd2a033",
 		"welcomePage.progress.foreground": "#NaNNaNNaN"
@@ -248,14 +248,14 @@
 		{
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#62a582ee",
+				"foreground": "#7aa58fee",
 				"fontStyle": "italic"
 			}
 		},
 		{
 			"scope": "variable",
 			"settings": {
-				"foreground": "#188e4a88"
+				"foreground": "#467c5e"
 			}
 		},
 		{
@@ -292,7 +292,7 @@
 		{
 			"scope": "support.function",
 			"settings": {
-				"foreground": "#62a582"
+				"foreground": "#86ba9f"
 			}
 		},
 		{
@@ -334,7 +334,7 @@
 		{
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#34804e"
+				"foreground": "#2c9e4e"
 			}
 		},
 		{

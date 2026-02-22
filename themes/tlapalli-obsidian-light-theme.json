@@ -1,5 +1,5 @@
 {
-	"name": "Tlapalli 00-l: Obsidian Light",
+	"name": "Tlapalli l-00: Obsidian Light",
 	"type": "light",
 	"colors": {
 		"activityBar.activeBorder": "#fdfdfd",
@@ -43,6 +43,7 @@
 		"editor.lineHighlightBackground": "#eeeeee",
 		"editor.placeholder.foreground": "#c6c5c4",
 		"editor.selectionBackground": "#00000022",
+		"editor.inactiveSelectionBackground": "#00000015",
 		"editorBracketMatch.background": "#fdfdfd",
 		"editorBracketMatch.border": "#c1c0bf",
 		"editorCursor.foreground": "#615e5a",
@@ -50,7 +51,7 @@
 		"editorGroup.border": "#ebeaea",
 		"editorGroupHeader.tabsBackground": "#fdfdfd",
 		"editorGroupHeader.tabsBorder": "#ebeaea",
-		"editorIndentGuide.activeBackground1": "#05050571",
+		"editorIndentGuide.activeBackground1": "#32302d71",
 		"editorIndentGuide.background1": "#e2e2e2",
 		"editorInfo.foreground": "#a8a6a4",
 		"editorLightBulb.foreground": "#7d7a77",
@@ -172,9 +173,9 @@
 		"tab.border": "#fdfdfd",
 		"tab.inactiveBackground": "#fdfdfd",
 		"tab.inactiveForeground": "#b7b6b6dc",
-		"tab.activeBorder": "#050505ef",
-		"tab.unfocusedHoverForeground": "#050505ef",
-		"tab.hoverForeground": "#050505ef",
+		"tab.activeBorder": "#231e19ef",
+		"tab.unfocusedHoverForeground": "#231e19ef",
+		"tab.hoverForeground": "#231e19ef",
 		"terminal.ansiBrightBlack": "#dedddd",
 		"terminal.ansiBrightBlue": "#c9c8c7",
 		"terminal.ansiBrightGreen": "#b5b4b2",
@@ -207,11 +208,10 @@
 		"listFilterWidget.noMatchesOutline": "#c02100",
 		"list.errorForeground": "#c02100",
 		"list.warningForeground": "#af6400",
-		"editorBracketHighlight.foreground1": "#3a3938",
-		"editorBracketHighlight.foreground2": "#6a6968c9",
-		"editorBracketHighlight.foreground3": "#94939198",
-		"editorBracketHighlight.unexpectedBracket.foreground": "#9e0505",
-		"editor.inactiveSelectionBackground": "#00000011"
+		"editorBracketHighlight.foreground1": "#32302d",
+		"editorBracketHighlight.foreground2": "#5a5856c9",
+		"editorBracketHighlight.foreground3": "#84828098",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#9e0505"
 	},
 	"tokenColors": [
 		{
@@ -223,7 +223,7 @@
 		{
 			"scope": "comment, punctuation.definition.comment",
 			"settings": {
-				"foreground": "#a5a5a5ad"
+				"foreground": "#d1cfcf"
 			}
 		},
 		{
@@ -247,14 +247,14 @@
 		{
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#757575ee",
+				"foreground": "#a4a4a4",
 				"fontStyle": "italic"
 			}
 		},
 		{
 			"scope": "variable",
 			"settings": {
-				"foreground": "#262626ee"
+				"foreground": "#605f5f"
 			}
 		},
 		{
@@ -321,7 +321,7 @@
 		{
 			"scope": "constant",
 			"settings": {
-				"foreground": "#423e39"
+				"foreground": "#8d8d8d"
 			}
 		},
 		{

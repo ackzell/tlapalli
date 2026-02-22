@@ -1,5 +1,5 @@
 {
-	"name": "Tlapalli 05-l: Amethyst Light",
+	"name": "Tlapalli l-05: Amethyst Light",
 	"type": "light",
 	"colors": {
 		"activityBar.activeBorder": "#faf8fb",
@@ -247,14 +247,14 @@
 		{
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#9262a5ee",
+				"foreground": "#9772a6",
 				"fontStyle": "italic"
 			}
 		},
 		{
 			"scope": "variable",
 			"settings": {
-				"foreground": "#760e8db0"
+				"foreground": "#774495"
 			}
 		},
 		{
@@ -285,7 +285,7 @@
 		{
 			"scope": "storage",
 			"settings": {
-				"foreground": "#9262a5ee"
+				"foreground": "#b665d7"
 			}
 		},
 		{
@@ -321,7 +321,7 @@
 		{
 			"scope": "constant",
 			"settings": {
-				"foreground": "#531c62"
+				"foreground": "#921eb2"
 			}
 		},
 		{
@@ -333,7 +333,7 @@
 		{
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#6d3480ef"
+				"foreground": "#ae7ac1"
 			}
 		},
 		{
@@ -345,7 +345,7 @@
 		{
 			"scope": "meta.selector",
 			"settings": {
-				"foreground": "#9262a5ee"
+				"foreground": "#9262a5"
 			}
 		},
 		{
@@ -377,7 +377,7 @@
 		{
 			"scope": "markup.italic, punctuation.definition.italic",
 			"settings": {
-				"foreground": "#9262a5ee",
+				"foreground": "#9262a5",
 				"fontStyle": "italic"
 			}
 		},
@@ -432,7 +432,7 @@
 		{
 			"scope": "markup.changed",
 			"settings": {
-				"foreground": "#9262a5ee"
+				"foreground": "#9262a5"
 			}
 		},
 		{
@@ -456,7 +456,7 @@
 		{
 			"scope": "punctuation.section.embedded, variable.interpolation",
 			"settings": {
-				"foreground": "#9262a5ee"
+				"foreground": "#9262a5"
 			}
 		},
 		{

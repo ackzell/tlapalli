@@ -1,5 +1,5 @@
 {
-	"name": "Tlapalli 03-l: Quartz Light",
+	"name": "Tlapalli l-03: Quartz Light",
 	"type": "light",
 	"colors": {
 		"activityBar.activeBorder": "#faf5f9",
@@ -41,6 +41,7 @@
 		"editor.foreground": "#75083c",
 		"editor.hoverHighlightBackground": "#e5d5e377",
 		"editor.lineHighlightBackground": "#f2e7ee",
+		"editor.placeholder.foreground": "#c5b1bb",
 		"editor.selectionBackground": "#d27bb177",
 		"editorBracketMatch.background": "#faf5f9",
 		"editorBracketMatch.border": "#d2b8c8",
@@ -206,9 +207,9 @@
 		"listFilterWidget.noMatchesOutline": "#c02100",
 		"list.errorForeground": "#c02100",
 		"list.warningForeground": "#af6400",
-		"editorBracketHighlight.foreground1": "#85003e",
-		"editorBracketHighlight.foreground2": "#a62a74",
-		"editorBracketHighlight.foreground3": "#b64785",
+		"editorBracketHighlight.foreground1": "#826a75",
+		"editorBracketHighlight.foreground2": "#b2528c",
+		"editorBracketHighlight.foreground3": "#e08abb",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#9e0505",
 		"editor.inactiveSelectionBackground": "#d27bb133"
 	},
@@ -246,14 +247,14 @@
 		{
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#94264fee",
+				"foreground": "#ac778b",
 				"fontStyle": "italic"
 			}
 		},
 		{
 			"scope": "variable",
 			"settings": {
-				"foreground": "#711540"
+				"foreground": "#a1627f"
 			}
 		},
 		{
@@ -284,7 +285,7 @@
 		{
 			"scope": "storage",
 			"settings": {
-				"foreground": "#94264fee"
+				"foreground": "#b5446dee"
 			}
 		},
 		{
@@ -320,7 +321,7 @@
 		{
 			"scope": "constant",
 			"settings": {
-				"foreground": "#660029"
+				"foreground": "#be4878"
 			}
 		},
 		{
@@ -332,7 +333,7 @@
 		{
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#7a0028af"
+				"foreground": "#a00e3faf"
 			}
 		},
 		{

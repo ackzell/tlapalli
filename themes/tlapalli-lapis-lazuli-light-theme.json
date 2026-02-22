@@ -1,5 +1,5 @@
 {
-	"name": "Tlapalli 04-l: Lapis Lazuli Light",
+	"name": "Tlapalli l-04: Lapis Lazuli Light",
 	"type": "light",
 	"colors": {
 		"activityBar.activeBorder": "#f2f5f8",
@@ -247,7 +247,7 @@
 		{
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#6287a5ee",
+				"foreground": "#7b9db9",
 				"fontStyle": "italic"
 			}
 		},
@@ -285,7 +285,7 @@
 		{
 			"scope": "storage",
 			"settings": {
-				"foreground": "#6287a5ee"
+				"foreground": "#2476b9"
 			}
 		},
 		{
@@ -321,7 +321,7 @@
 		{
 			"scope": "constant",
 			"settings": {
-				"foreground": "#094166"
+				"foreground": "#106daa"
 			}
 		},
 		{
@@ -333,7 +333,7 @@
 		{
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#346180"
+				"foreground": "#518eb7"
 			}
 		},
 		{
@@ -345,7 +345,7 @@
 		{
 			"scope": "meta.selector",
 			"settings": {
-				"foreground": "#6287a5ee"
+				"foreground": "#2476b9"
 			}
 		},
 		{
@@ -377,7 +377,7 @@
 		{
 			"scope": "markup.italic, punctuation.definition.italic",
 			"settings": {
-				"foreground": "#6287a5ee",
+				"foreground": "#2476b9",
 				"fontStyle": "italic"
 			}
 		},
@@ -432,7 +432,7 @@
 		{
 			"scope": "markup.changed",
 			"settings": {
-				"foreground": "#6287a5ee"
+				"foreground": "#2476b9"
 			}
 		},
 		{
@@ -456,7 +456,7 @@
 		{
 			"scope": "punctuation.section.embedded, variable.interpolation",
 			"settings": {
-				"foreground": "#6287a5ee"
+				"foreground": "#2476b9"
 			}
 		},
 		{
