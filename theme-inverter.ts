@@ -117,7 +117,7 @@ interface VSCodeTheme {
 function invertTheme(dark: VSCodeTheme): VSCodeTheme {
   const light: VSCodeTheme = {
     ...dark,
-    name: dark.name ? dark.name.replace(/dark/i, "Light").replace(/Dark/g, "Light") : "Light",
+    name: dark.name ? dark.name.replace(/(\s)(\d+):/, "$1l-$2:") + " Light" : "Light",
     type: "light",
   };
 
