@@ -219,7 +219,8 @@
 		"editorOverviewRuler.errorForeground": "#ffffff",
 		"problemsErrorIcon.foreground": "#ffffff",
 		"editorMarkerNavigationError.headerBackground": "#ffffff",
-		"terminalCommandDecoration.errorBackground": "#ffffff"
+		"terminalCommandDecoration.errorBackground": "#ffffff",
+		"progressBar.background": "#ff8cb8"
 	},	
 	"tokenColors": [
 		{
