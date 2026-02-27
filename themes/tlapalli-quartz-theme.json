@@ -105,6 +105,7 @@
 		"panelTitle.activeForeground": "#ff8cb8",
 		"panelTitle.inactiveForeground": "#472d3d",
 		"peekView.border": "#4d2a3d",
+		"peekViewTitle.background": "#140912",
 		"peekViewEditor.background": "#0a0509",
 		"peekViewEditor.matchHighlightBackground": "#0a0509",
 		"peekViewEditor.matchHighlightBorder": "#472d3d",
