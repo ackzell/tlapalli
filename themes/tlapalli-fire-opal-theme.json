@@ -220,7 +220,10 @@
 		"problemsErrorIcon.foreground": "#ffffff",
 		"editorMarkerNavigationError.headerBackground": "#ffffff",
 		"terminalCommandDecoration.errorBackground": "#ffffff",
-		"progressBar.background": "#ff8cb8"
+		"progressBar.background": "#ff8cb8",
+		"minimapSlider.background": "#ff8cb80f",
+		"minimapSlider.hoverBackground": "#ff8cb811",
+		"minimapSlider.activeBackground": "#ff8cb822"
 	},	
 	"tokenColors": [
 		{
