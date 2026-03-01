@@ -221,7 +221,10 @@
 		"editorMarkerNavigationError.headerBackground": "#000000",
 		"terminalCommandDecoration.errorBackground": "#000000",
 		"welcomePage.progress.foreground": "#b70000",
-		"progressBar.background": "#b70000"
+		"progressBar.background": "#b70000",
+		"minimapSlider.background": "#7a00140f",
+		"minimapSlider.hoverBackground": "#7a00140f",
+		"minimapSlider.activeBackground": "#7a001421"
 	},
 	"tokenColors": [
 		{

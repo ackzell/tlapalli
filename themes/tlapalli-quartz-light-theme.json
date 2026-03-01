@@ -213,7 +213,10 @@
 		"editorBracketHighlight.unexpectedBracket.foreground": "#9e0505",
 		"editor.inactiveSelectionBackground": "#d27bb133",
 		"welcomePage.progress.foreground": "#d27bb1",
-		"progressBar.background": "#d27bb1"
+		"progressBar.background": "#d27bb1",
+		"minimapSlider.background": "#5c002e0f",
+		"minimapSlider.hoverBackground": "#5c002e0f",
+		"minimapSlider.activeBackground": "#5c002e21"
 	},
 	"tokenColors": [
 		{
