@@ -67,7 +67,7 @@
 		"editorWidget.border": "#c7e1d2",
 		"editorHoverWidget.statusBarBackground": "#f4f8f6",
 		"focusBorder": "#f4f8f6",
-		"foreground": "#80c2a2",
+		"foreground": "#74a890",
 		"gitDecoration.ignoredResourceForeground": "#c6d6da",
 		"gitDecoration.addedResourceForeground": "#266f43",
 		"gitDecoration.modifiedResourceForeground": "#266f43",
