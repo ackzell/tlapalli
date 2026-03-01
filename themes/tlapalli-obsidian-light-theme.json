@@ -44,6 +44,8 @@
 		"editor.placeholder.foreground": "#c5c5c5",
 		"editor.selectionBackground": "#00000022",
 		"editor.inactiveSelectionBackground": "#00000015",
+		"editor.selectionHighlightBackground": "#00000015",
+		"editor.selectionHighlightBorder": "#00000022",
 		"editorBracketMatch.background": "#fdfdfd",
 		"editorBracketMatch.border": "#c0c0c0",
 		"editorCursor.foreground": "#5e5e5e",
