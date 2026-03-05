@@ -237,7 +237,7 @@
 			"settings": { "foreground": "#b3ffcc98" }
 		},
 		{ "scope": "none", "settings": { "foreground": "#85f0a8" } },
-		{ "scope": "keyword.operator", "settings": { "foreground": "#a3ffc4" } },
+		{ "scope": "keyword.operator", "settings": { "foreground": "#a3ffc4", "fontStyle": "" } },
 		{ "scope": "keyword", "settings": { "foreground": "#5a9d7aee", "fontStyle": "italic" } },
 		{ "scope": "variable", "settings": { "foreground": "#8fc2a2" } },
 		{

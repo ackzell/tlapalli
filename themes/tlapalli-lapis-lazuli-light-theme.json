@@ -251,7 +251,8 @@
 		{
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#00243b"
+				"foreground": "#00243b",
+				"fontStyle": ""
 			}
 		},
 		{
