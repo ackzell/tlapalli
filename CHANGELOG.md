@@ -1,6 +1,5 @@
 # Changelog
-
-All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
+All notable changes to the theme variants will be documented in this file.
 
 ## [0.1.6](https://github.com/ackzell/tlapalli-vscode-theme/compare/v0.1.5...v0.1.6) (2026-03-01)
 
