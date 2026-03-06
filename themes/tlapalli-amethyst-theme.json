@@ -118,6 +118,7 @@
     "peekViewResult.selectionForeground": "#b89fd9",
     "pickerGroup.foreground": "#9d6dbf",
     "sash.hoverBorder": "#1a1522",
+    "selection.background": "#342a4d",
     "scrollbar.shadow": "#060407",
     "scrollbarSlider.activeBackground": "#e8c4ff0f",
     "scrollbarSlider.background": "#e8c4ff0f",
