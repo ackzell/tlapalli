@@ -1,5 +1,18 @@
 # Changelog
-All notable changes to the theme variants will be documented in this file.
+
+All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
+
+## [0.2.0](https://github.com/ackzell/tlapalli-vscode-theme/compare/v0.1.6...v0.2.0) (2026-03-06)
+
+
+### Features
+
+* **03-quartz:** Updating sidebar.foreground to improve contrast ([0b495e4](https://github.com/ackzell/tlapalli-vscode-theme/commit/0b495e409bbae2562645efefd8c030fa7cd79458))
+* **05-amethyst:** Updating sidebar.foreground to improve contrast ([e60a41c](https://github.com/ackzell/tlapalli-vscode-theme/commit/e60a41ce0701de81f472160089f9381ea61ac58b))
+* **dark-themes:** Colorizing selection.background ([8649826](https://github.com/ackzell/tlapalli-vscode-theme/commit/864982696edb13376d8649ffcafbd0cd03b0e348))
+* **light-themes:** Colorizing selection.background ([658df87](https://github.com/ackzell/tlapalli-vscode-theme/commit/658df8751a7924e7b08ad73c962a85763ffa8397))
+* **light-themes:** Matching peek view title with the editor widget background. ([39b8c0a](https://github.com/ackzell/tlapalli-vscode-theme/commit/39b8c0a2708d65fd6c89d2f87e46710b055cb98f))
+* **themes:** Removing italic from the operator styles ([6b76d89](https://github.com/ackzell/tlapalli-vscode-theme/commit/6b76d8947ed8bf23d19d92fe88c4ce60ca266dbc))
 
 ## [0.1.6](https://github.com/ackzell/tlapalli-vscode-theme/compare/v0.1.5...v0.1.6) (2026-03-01)
 
