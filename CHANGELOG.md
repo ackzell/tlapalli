@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.2.1](https://github.com/ackzell/tlapalli-vscode-theme/compare/v0.2.0...v0.2.1) (2026-03-07)
+
+
+### Features
+
+* **00-obsidian:** Updating selection background to improve contrast ([a535bba](https://github.com/ackzell/tlapalli-vscode-theme/commit/a535bba0d8960e197b3640280ef9c7295d718f21))
+* **dark-themes:** editorCursor.background updated ([5f0c2e8](https://github.com/ackzell/tlapalli-vscode-theme/commit/5f0c2e8fab6c39f415712c1653e4a6f2adda0b3c))
+* **dark-themes:** Updating editor.wordHighlight and colorizing more highlight states ([8ea63c2](https://github.com/ackzell/tlapalli-vscode-theme/commit/8ea63c2ce2786f21097b51a37a5576150b2278e9))
+
 ## [0.2.0](https://github.com/ackzell/tlapalli-vscode-theme/compare/v0.1.6...v0.2.0) (2026-03-06)
 
 
