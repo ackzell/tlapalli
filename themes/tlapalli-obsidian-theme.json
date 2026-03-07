@@ -49,6 +49,7 @@
     "editorBracketMatch.background": "#020202",
     "editorBracketMatch.border": "#3f3f3f",
     "editorCursor.foreground": "#a2a2a2",
+    "editorCursor.background": "#020202",
     "editorError.foreground": "#595959",
     "editorGroup.border": "#141414",
     "editorGroupHeader.tabsBackground": "#020202",
