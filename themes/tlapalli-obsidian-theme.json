@@ -73,6 +73,8 @@
     "editor.wordHighlightBackground": "#3f3f3fc3",
     "editor.wordHighlightBorder": "#3f3f3f",
     "editor.wordHighlightStrongBackground": "#3f3f3fd4",
+    "editor.wordHighlightTextBackground": "#3f3f3f50",
+    "editor.linkedEditingBackground": "#3f3f3f50",
     "focusBorder": "#020202",
     "foreground": "#5c5c5c",
     "gitDecoration.ignoredResourceForeground": "#2d2d2d",
