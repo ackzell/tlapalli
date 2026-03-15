@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.2.2](https://github.com/ackzell/tlapalli-vscode-theme/compare/v0.2.1...v0.2.2) (2026-03-15)
+
+
+### Features
+
+* **logo:** Updating logo to match order of variants ([b2bef32](https://github.com/ackzell/tlapalli-vscode-theme/commit/b2bef324536793280a4caf3f27cafde0695a5d35))
+
+
+### Bug Fixes
+
+* **05-amethyst:** Updating color for highlighted items in the list ([efa96ea](https://github.com/ackzell/tlapalli-vscode-theme/commit/efa96eac932f2c2bfb1f4e2cadc5cd63fd794d85))
+* **l-02-turquoise-light:** Improving contrast for sidebar foreground ([3517cc4](https://github.com/ackzell/tlapalli-vscode-theme/commit/3517cc4e2a58a8c8b45b03e9767ee23ad42aba7e))
+* **l-06-jade-light:** Improving contrast for sidebar foreground ([985054f](https://github.com/ackzell/tlapalli-vscode-theme/commit/985054fbdf5939872f1e61a0f6a7cfc215a632d0))
+
 ## [0.2.1](https://github.com/ackzell/tlapalli-vscode-theme/compare/v0.2.0...v0.2.1) (2026-03-07)
 
 
