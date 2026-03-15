@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.64522713"
-     inkscape:cx="704.40312"
-     inkscape:cy="674.95612"
+     inkscape:cx="707.5028"
+     inkscape:cy="676.50596"
      inkscape:window-width="1728"
      inkscape:window-height="1057"
      inkscape:window-x="0"
@@ -51,7 +51,10 @@
          x="-247.17667"
          y="-238.36734"
          rx="7.6093784e-05"
-         ry="9.4053615e-07" />
+         ry="9.4053615e-07"
+         inkscape:export-filename="logo.jpg"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
       <g
          id="g47482">
         <path
