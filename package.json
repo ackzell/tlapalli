@@ -1,53 +1,56 @@
 {
   "name": "tlapalli",
   "displayName": "Tlapalli",
-  "description": "Tlapalli means color in Nahuatl. Monochromatic theme with colored variations. Inspired by minerals found in Mexico",
   "version": "0.2.2",
-  "publisher": "ackzell",
-  "preview": true,
-  "icon": "logo.jpg",
-  "scripts": {
-    "prepare": "is-ci || husky",
-    "cz": "exec < /dev/tty && npx cz --hook || true",
-    "package": "vsce package",
-    "tag": "commit-and-tag-version -- --no-verify",
-    "tag:minor": "commit-and-tag-version --release-as minor -- --no-verify",
-    "tag:major": "commit-and-tag-version --release-as major -- --no-verify"
+  "description": "Tlapalli means color in Náhuatl. Monochromatic theme with colored variations. Inspired by minerals found in Mexico",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Amber",
+    "Black",
+    "Blue",
+    "Dark Theme",
+    "Gemstone",
+    "Green",
+    "Light Theme",
+    "Mineral",
+    "Mono",
+    "Monochromatic",
+    "Night Theme",
+    "Pink",
+    "Purple",
+    "Red",
+    "Theme",
+    "Turquoise"
+  ],
+  "bugs": {
+    "url": "https://github.com/ackzell/tlapalli-vscode-theme/issues"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/ackzell/tlapalli-vscode-theme"
   },
-  "bugs": {
-    "url": "https://github.com/ackzell/tlapalli-vscode-theme/issues"
-  },
   "sponsor": {
     "url": "https://github.com/sponsors/ackzell"
   },
-  "engines": {
-    "vscode": "^1.108.1"
+  "publisher": "ackzell",
+  "scripts": {
+    "prepare": "is-ci || husky",
+    "cz": "exec < /dev/tty && npx cz --hook || true",
+    "package": "vsce package",
+    "fmt": "oxfmt",
+    "tag": "commit-and-tag-version -- --no-verify",
+    "tag:minor": "commit-and-tag-version --release-as minor -- --no-verify",
+    "tag:major": "commit-and-tag-version --release-as major -- --no-verify"
   },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "Theme",
-    "Dark Theme",
-    "Night Theme",
-    "Light Theme",
-    "Mono",
-    "Monochromatic",
-    "Black",
-    "Amber",
-    "Turquoise",
-    "Pink",
-    "Blue",
-    "Purple",
-    "Green",
-    "Red",
-    "Gem stone",
-    "Mineral"
-  ],
+  "devDependencies": {
+    "commit-and-tag-version": "^12.6.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.1.7",
+    "is-ci": "^4.1.0",
+    "oxfmt": "^0.42.0"
+  },
   "contributes": {
     "themes": [
       {
@@ -132,15 +135,14 @@
       }
     ]
   },
-  "devDependencies": {
-    "commit-and-tag-version": "^12.6.1",
-    "cz-conventional-changelog": "^3.3.0",
-    "husky": "^9.1.7",
-    "is-ci": "^4.1.0"
-  },
+  "icon": "logo.jpg",
+  "preview": true,
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "engines": {
+    "vscode": "^1.108.1"
   }
 }

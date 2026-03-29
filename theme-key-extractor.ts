@@ -17,9 +17,7 @@ import { join } from "path";
 const keys = process.argv.slice(2);
 
 if (keys.length === 0) {
-  console.error(
-    "Usage: npx tsx theme-key-extractor.ts <key1> [key2] [key3] ..."
-  );
+  console.error("Usage: npx tsx theme-key-extractor.ts <key1> [key2] [key3] ...");
   process.exit(1);
 }
 

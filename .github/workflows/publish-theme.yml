@@ -3,7 +3,7 @@ name: Publish Tlapalli VSCode Theme
 on:
   push:
     tags:
-      - 'v*'
+      - "v*"
 
 jobs:
   publish:
@@ -15,16 +15,16 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-      
+          node-version: "20"
+
       - name: Get version from tag
         id: get_version
         run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_OUTPUT
-      
+
       - name: Verify version matches package.json
         run: |
           PACKAGE_VERSION=$(node -p "require('./package.json').version")
@@ -34,7 +34,7 @@ jobs:
             exit 1
           fi
           echo "✅ Version verified: $PACKAGE_VERSION"
-      
+
       - name: Publish to Open VSX Registry
         id: publishToOpenVSX
         uses: HaaLeo/publish-vscode-extension@v2
@@ -42,19 +42,19 @@ jobs:
           pat: ${{ secrets.OPEN_VSX_TOKEN }}
           dryRun: ${{ secrets.OPEN_VSX_TOKEN == '' }}
         continue-on-error: true
-      
+
       - name: Publish to Visual Studio Marketplace
         uses: HaaLeo/publish-vscode-extension@v2
         with:
           pat: ${{ secrets.VSCE_PAT }}
           registryUrl: https://marketplace.visualstudio.com
           extensionFile: ${{ steps.publishToOpenVSX.outputs.vsixPath }}
-      
+
       - name: Extract changelog for this version
         id: changelog
         run: |
           VERSION="${{ steps.get_version.outputs.VERSION }}"
-          
+
           # Extract changelog using awk - works with commit-and-tag-version format
           CHANGELOG=$(awk -v ver="$VERSION" '
             /^## \[/ {
@@ -66,21 +66,21 @@ jobs:
             }
             found {print}
           ' CHANGELOG.md | sed '/^$/d')
-          
+
           # If empty, use default message
           if [ -z "$CHANGELOG" ]; then
             CHANGELOG="Release version $VERSION
 
             See full changelog at: https://github.com/ackzell/tlapalli-vscode-theme/blob/main/CHANGELOG.md"
           fi
-          
+
           # Output to GitHub Actions
           {
             echo "CHANGELOG<<EOF"
             echo "$CHANGELOG"
             echo "EOF"
           } >> $GITHUB_OUTPUT
-      
+
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
@@ -91,7 +91,7 @@ jobs:
           prerelease: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
+
       - name: Success notification
         run: |
           echo "✅ Tlapalli theme v${{ steps.get_version.outputs.VERSION }} published successfully!"

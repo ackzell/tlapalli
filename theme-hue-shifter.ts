@@ -92,11 +92,7 @@ function hlsToRgb(h: number, l: number, s: number): [number, number, number] {
   const q = l < 0.5 ? l * (1 + s) : l + s - l * s;
   const p = 2 * l - q;
 
-  return [
-    hue2rgb(p, q, h + 1 / 3),
-    hue2rgb(p, q, h),
-    hue2rgb(p, q, h - 1 / 3),
-  ];
+  return [hue2rgb(p, q, h + 1 / 3), hue2rgb(p, q, h), hue2rgb(p, q, h - 1 / 3)];
 }
 
 // ---------------------------------------------------------------------------
@@ -127,7 +123,7 @@ function parseTargetHue(input: string): number {
   }
 
   throw new Error(
-    `Invalid target hue: "${input}". Use a number (0-360), hex color, or color name.`
+    `Invalid target hue: "${input}". Use a number (0-360), hex color, or color name.`,
   );
 }
 
@@ -149,21 +145,23 @@ function shiftHue(hex: string, targetHue: number): string {
   const b = parseInt(rgb[4] + rgb[5], 16) / 255;
 
   let [, l, s] = rgbToHls(r, g, b);
-  
+
   // If color is achromatic (grayscale), add saturation so hue shift works
   // Keep saturation moderate to preserve contrast relationships
   if (s === 0 || s < 0.1) {
-    if (l < 0.15) s = 0.25;      // very dark → subtle saturation
-    else if (l < 0.3) s = 0.35;  // dark → moderate saturation
+    if (l < 0.15)
+      s = 0.25; // very dark → subtle saturation
+    else if (l < 0.3)
+      s = 0.35; // dark → moderate saturation
     else if (l < 0.45) s = 0.4;
     else if (l < 0.6) s = 0.35;
     else if (l < 0.75) s = 0.28;
-    else s = 0.18;               // light → subtle saturation
+    else s = 0.18; // light → subtle saturation
   } else {
     // For colors with minimal saturation, boost them moderately
     s = Math.max(s, 0.25);
   }
-  
+
   const newHue = targetHue / 360; // normalize to 0-1
   const [r2, g2, b2] = hlsToRgb(newHue, l, s);
 
@@ -192,11 +190,7 @@ interface VSCodeTheme {
   [key: string]: unknown;
 }
 
-function shiftThemeHue(
-  theme: VSCodeTheme,
-  targetHue: number,
-  newName?: string
-): VSCodeTheme {
+function shiftThemeHue(theme: VSCodeTheme, targetHue: number, newName?: string): VSCodeTheme {
   const shifted: VSCodeTheme = JSON.parse(JSON.stringify(theme)); // deep clone
 
   if (newName) {
