@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [0.2.3](https://github.com/ackzell/tlapalli-vscode-theme/compare/v0.2.2...v0.2.3) (2026-03-29)
+
+
+### Features
+
+* **themes:** Keybinding colors ([0091815](https://github.com/ackzell/tlapalli-vscode-theme/commit/0091815b0b50724cf598189e39e168760eb10283))
+
+
+### Bug Fixes
+
+* **00-obsidian:** Progress bar color ([fea8470](https://github.com/ackzell/tlapalli-vscode-theme/commit/fea84709d7e90ca3213ee5a1227d573696f54055))
+* **07-fire-opal:** Progress bar color ([b468d63](https://github.com/ackzell/tlapalli-vscode-theme/commit/b468d63012d7959ff450306c1847f9e5e9aaba1d))
+* **dark-themes:** Update active border colors ([0804697](https://github.com/ackzell/tlapalli-vscode-theme/commit/080469719d3f3aec03f1db5e41d564e57ba7a46b))
+
 ## [0.2.2](https://github.com/ackzell/tlapalli-vscode-theme/compare/v0.2.1...v0.2.2) (2026-03-15)
 
 ### Features
