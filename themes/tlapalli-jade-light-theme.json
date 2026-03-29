@@ -223,7 +223,12 @@
 		"progressBar.background": "#34804e",
 		"minimapSlider.background": "#005c210f",
 		"minimapSlider.hoverBackground": "#005c210f",
-		"minimapSlider.activeBackground": "#005c2121"
+		"minimapSlider.activeBackground": "#005c2121",
+		"keybindingLabel.background": "#f4f8f6",
+		"keybindingLabel.foreground": "#34804e",
+		"keybindingLabel.border": "#e4f0ea",
+		"keybindingLabel.bottomBorder": "#e4f0ea",
+		"descriptionForeground": "#34804e"
 	},
 	"tokenColors": [
 		{

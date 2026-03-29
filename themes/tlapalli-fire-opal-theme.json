@@ -231,9 +231,14 @@
 		"editorMarkerNavigationError.headerBackground": "#ffffff",
 		"terminalCommandDecoration.errorBackground": "#ffffff",
 		"progressBar.background": "#ff4848",
-		"minimapSlider.background": "#ff8cb80f",
-		"minimapSlider.hoverBackground": "#ff8cb811",
-		"minimapSlider.activeBackground": "#ff8cb822"
+		"minimapSlider.background": "#ff48480f",
+		"minimapSlider.hoverBackground": "#ff484811",
+		"minimapSlider.activeBackground": "#ff484822",
+		"keybindingLabel.background": "#0c0707",
+		"keybindingLabel.foreground": "#ff4848",
+		"keybindingLabel.border": "#241313",
+		"keybindingLabel.bottomBorder": "#241313",
+		"descriptionForeground": "#df4c4c"
 	},	
 	"tokenColors": [
 		{
