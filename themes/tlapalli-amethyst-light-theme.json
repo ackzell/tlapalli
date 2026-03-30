@@ -232,6 +232,13 @@
   },
   "tokenColors": [
     {
+      "name": "JSON Key",
+      "scope": ["support.type.property-name.json", "meta.object-literal.key"],
+      "settings": {
+        "foreground": "#760e8dc5"
+      }
+    },
+    {
       "scope": "variable.parameter.function",
       "settings": {
         "foreground": "#760e8dc5"
