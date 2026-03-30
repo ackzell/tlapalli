@@ -241,7 +241,7 @@
     {
       "scope": "variable.parameter.function",
       "settings": {
-        "foreground": "#262626ee"
+        "foreground": "#898989"
       }
     },
     {
