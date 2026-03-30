@@ -243,7 +243,7 @@
     {
       "scope": "variable.parameter.function",
       "settings": {
-        "foreground": "#d9d9d9ee"
+        "foreground": "#d9d9d9"
       }
     },
     {
