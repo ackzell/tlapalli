@@ -42,7 +42,8 @@
     "fmt": "oxfmt",
     "tag": "commit-and-tag-version -- --no-verify",
     "tag:minor": "commit-and-tag-version --release-as minor -- --no-verify",
-    "tag:major": "commit-and-tag-version --release-as major -- --no-verify"
+    "tag:major": "commit-and-tag-version --release-as major -- --no-verify",
+    "publish": "git push --follow-tags"
   },
   "devDependencies": {
     "commit-and-tag-version": "^12.6.1",

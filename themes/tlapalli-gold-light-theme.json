@@ -86,7 +86,6 @@
     "input.background": "#faf8f6",
     "input.border": "#faf8f6",
     "input.foreground": "#806134cf",
-
     "list.activeSelectionBackground": "#e1d2bd73",
     "list.activeSelectionForeground": "#3b2400",
     "list.filterMatchBackground": "#e1cfc7",
