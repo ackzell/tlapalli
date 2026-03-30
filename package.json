@@ -2,7 +2,7 @@
   "name": "tlapalli",
   "displayName": "Tlapalli",
   "version": "0.2.3",
-  "description": "Tlapalli means color in Náhuatl. Monochromatic theme with colored variations. Inspired by minerals found in Mexico",
+  "description": "Tlah-PAH-lee means color in Náhuatl. Monochromatic theme with colored variations. Inspired by minerals found in Mexico",
   "categories": [
     "Themes"
   ],
@@ -137,7 +137,7 @@
     ]
   },
   "icon": "logo.jpg",
-  "preview": true,
+  "preview": false,
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
