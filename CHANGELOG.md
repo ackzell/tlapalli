@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.0.0](https://github.com/ackzell/tlapalli-vscode-theme/compare/v0.2.3...v1.0.0) (2026-03-30)
+
+
+### Features
+
+* **00-obsidian:** Updating variable foreground color ([04d2e46](https://github.com/ackzell/tlapalli-vscode-theme/commit/04d2e467659a48b1ec9a29c7828ed3a3cfcf90f0))
+* **l-00-obsidian-light:** Updating variable foreground color ([5838168](https://github.com/ackzell/tlapalli-vscode-theme/commit/5838168db3bbabcc0113b84a388667ba1f015994))
+* **themes:** Adding contrast to JSON key names ([ddb70c1](https://github.com/ackzell/tlapalli-vscode-theme/commit/ddb70c1014ce1e4c0a8b20084a41c6f2c39a2ab6))
+* **themes:** Out of preview! ([7db3792](https://github.com/ackzell/tlapalli-vscode-theme/commit/7db3792b8393e1b249e8b32b7f5979fe1e3f53ea))
+
 ## [0.2.3](https://github.com/ackzell/tlapalli-vscode-theme/compare/v0.2.2...v0.2.3) (2026-03-29)
 
 
