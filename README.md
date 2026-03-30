@@ -51,42 +51,42 @@ Fun fact: these are all minerals that you can find in Mexico 🤓
 ## 00: Obsidian
 
 The original idea was to create this theme _only_, which was based on the [Monochrome](https://github.com/anotherglitchinthematrix/monochrome) theme. Though many tweaks have been applied to get it just the way I like them.
-<img width="100%" alt="obsidian" src="https://github.com/user-attachments/assets/17516378-dd89-4d54-b115-4ed995b1d6ad" />
+<img width="100%" alt="obsidian" src="./docs/images/obsidianDark.png" />
 
 ## 01: Gold
 
 A kind-of-yellow sort-of-amber like the one I used to work with when I started with computers. Not quite as bright IMO, so gold it is.
-<img width="100%" alt="gold" src="https://github.com/user-attachments/assets/fcad89d8-b346-46c2-a1c1-f24a95a42368" />
+<img width="100%" alt="gold" src="./docs/images/goldDark.png" />
 
 ## 02: Turquoise
 
 This was the first one I worked on as a variant for Obsidian. I really like having this in the options and will be using it quite often.
-<img width="100%" alt="turquoise" src="https://github.com/user-attachments/assets/66e61d7a-82d5-49b1-91fa-15fab3a067cf" />
+<img width="100%" alt="turquoise" src="./docs/images/turquoiseDark.png" />
 
 ## 03: Quartz
 
 I am not a huge fan of pink for the theme, but I was already on a roll trying with the different variants, so why not having it as well?
-<img width="100%" alt="quartz" src="https://github.com/user-attachments/assets/df15762b-61a1-4bf7-9d55-643864ebbc71" />
+<img width="100%" alt="quartz" src="./docs/images/quartzDark.png" />
 
 ## 04: Lapis Lazuli
 
 Not as bright as a sapphire blue, but still nice on _my_ eyes.
-<img width="100%" alt="lapis lazulli" src="https://github.com/user-attachments/assets/9d76041c-a09a-4332-b329-8750f209e74f" />
+<img width="100%" alt="lapis lazulli" src="./docs/images/lapisLazuliDark.png" />
 
 ## 05: Amethyst
 
 Maybe the 3rd or 4th variant I worked on. Lots of purple themes out there, but a monochromatic one?
-<img width="100%" alt="amethyst" src="https://github.com/user-attachments/assets/77db8873-a29a-4a7f-9b79-cbb32adcb843" />
+<img width="100%" alt="amethyst" src="./docs/images/amethystDark.png" />
 
 ## 06: Jade
 
 This is a greener hue, closer to those early monitors I aluded to when describing the gold variant. I really like how it looks!
-<img width="100%" alt="jade" src="https://github.com/user-attachments/assets/983ab7cc-18b3-45fb-ad3e-3017e019b044" />
+<img width="100%" alt="jade" src="./docs/images/jadeDark.png" />
 
 ## 07:Fire Opal
 
 This is a tricky one. I am not sure anyone would NOT be thinking "this is screaming errors at me all the time", but I decided to give it a shot. ERRORs are white in this variant, BTW.
-<img width="100%" alt="fire opal" src="https://github.com/user-attachments/assets/7b7e9254-3739-412d-acf3-c1f2831fe901" />
+<img width="100%" alt="fire opal" src="./docs/images/fireOpalDark.png" />
 
 # Light
 
@@ -96,32 +96,32 @@ They are essentially the "inverse" of the dark themes, with a few manual changes
 
 ## l-00: Obsidian Light
 
-<img width="100%" alt="obsidian light" src="https://github.com/user-attachments/assets/b4d7e250-1a36-4a9d-9dcb-1ade98352702" />
+<img width="100%" alt="obsidian light" src="./docs/images/obsidianLight.png" />
 
 ## l-01: Gold Light
 
-<img width="100%" alt="gold light" src="https://github.com/user-attachments/assets/d0a05ff4-f22a-47e5-bcf9-c9e53b1bd117" />
+<img width="100%" alt="gold light" src="./docs/images/goldLight.png" />
 
 ## l-02: Turquoise Light
 
-<img width="100%" alt="turquoise light" src="https://github.com/user-attachments/assets/28bec171-2e08-4dba-9b17-f7f1810c47c8" />
+<img width="100%" alt="turquoise light" src="./docs/images/turquoiseLight.png" />
 
 ## l-03: Quartz Light
 
-<img width="100%" alt="quartz light" src="https://github.com/user-attachments/assets/c303ac82-4635-49df-937b-b7c7014dd314" />
+<img width="100%" alt="quartz light" src="./docs/images/quartzLight.png" />
 
 ## l-04: Lapis Lazuli Light
 
-<img width="100%" alt="lapis lazuli light" src="https://github.com/user-attachments/assets/965cf96b-bdf0-4c32-a7c1-c29250439eeb" />
+<img width="100%" alt="lapis lazuli light" src="./docs/images/lapisLazuliLight.png" />
 
 ## l-05: Amethyst Light
 
-<img width="100%" alt="amethyst light" src="https://github.com/user-attachments/assets/565483f3-d760-45a8-b4bc-a6280141f8bf" />
+<img width="100%" alt="amethyst light" src="./docs/images/amethystLight.png" />
 
 ## l-06: Jade Light
 
-<img width="100%" alt="jade light" src="https://github.com/user-attachments/assets/6d81ce17-5175-4efe-9466-8aedbebca6ba" />
+<img width="100%" alt="jade light" src="./docs/images/jadeLight.png" />
 
 ## l-07: Fire Opal Light
 
-<img width="100%" alt="fire opal light" src="https://github.com/user-attachments/assets/51f19a31-1fe8-4cba-9ab2-51a3d057a1e0" />
+<img width="100%" alt="fire opal light" src="./docs/images/fireOpalLight.png" />
