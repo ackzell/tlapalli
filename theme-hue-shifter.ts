@@ -195,6 +195,8 @@ function shiftThemeHue(theme: VSCodeTheme, targetHue: number, newName?: string):
 
   if (newName) {
     shifted.name = newName;
+  } else {
+    shifted.name = theme.name ? `${theme.name} (Hue Shifted)` : "Hue Shifted Theme";
   }
 
   // Shift UI colors
@@ -255,7 +257,7 @@ try {
   const output = JSON.stringify(shifted, null, "\t");
 
   if (outputPath) {
-    writeFileSync(outputPath, output, "utf-8");
+    writeFileSync("themes/" + outputPath, output, "utf-8");
     console.error(`✓ Written to ${outputPath}`);
   } else {
     console.log(output);

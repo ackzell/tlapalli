@@ -43,7 +43,11 @@
     "tag": "commit-and-tag-version -- --no-verify",
     "tag:minor": "commit-and-tag-version --release-as minor -- --no-verify",
     "tag:major": "commit-and-tag-version --release-as major -- --no-verify",
-    "publish": "git push --follow-tags"
+    "publish": "git push --follow-tags",
+    "invert": "npx tsx theme-inverter.ts",
+    "extract-keys": "npx tsx theme-key-extractor.ts",
+    "update-key": "npx tsx theme-key-updater.ts",
+    "update-key:all": "npx tsx theme-key-updater-all.ts"
   },
   "devDependencies": {
     "commit-and-tag-version": "^12.6.1",
