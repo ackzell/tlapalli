@@ -97,7 +97,7 @@
     "list.focusBackground": "#4d1a1a1a",
     "list.focusForeground": "#ff8599",
     "list.highlightForeground": "#ff7070",
-    "list.hoverBackground": "#0c0707",
+    "list.hoverBackground": "#842d2d77",
     "list.inactiveSelectionBackground": "#180d0d",
     "list.inactiveSelectionForeground": "#ff4848",
     "listFilterWidget.background": "#0c0707",
@@ -238,7 +238,8 @@
     "keybindingLabel.foreground": "#ff4848",
     "keybindingLabel.border": "#241313",
     "keybindingLabel.bottomBorder": "#241313",
-    "descriptionForeground": "#df4c4c"
+    "descriptionForeground": "#df4c4c",
+    "list.hoverForeground": "#ff4848"
   },
   "tokenColors": [
     {
