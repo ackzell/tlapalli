@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.0.1](https://github.com/ackzell/tlapalli-vscode-theme/compare/v1.0.0...v1.0.1) (2026-04-23)
+
+
+### Bug Fixes
+
+* **themes:** "quick fix" selection popup highlighting ([5f90d23](https://github.com/ackzell/tlapalli-vscode-theme/commit/5f90d23b5cf81371a906e8e28b86952d290a78da))
+
 ## [1.0.0](https://github.com/ackzell/tlapalli-vscode-theme/compare/v0.2.3...v1.0.0) (2026-03-30)
 
 
