@@ -98,7 +98,7 @@
     "list.activeSelectionForeground": "#a3ffc4",
     "list.filterMatchBackground": "#1e3829",
     "list.filterMatchBorder": "#070b09",
-    "list.focusBackground": "#1a4d2e1a",
+    "list.focusBackground": "#1a4d2e5b",
     "list.focusForeground": "#a3ffc4",
     "list.highlightForeground": "#70bd99",
     "list.hoverBackground": "#2d845277",
