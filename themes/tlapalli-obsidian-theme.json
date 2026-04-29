@@ -221,6 +221,8 @@
     "titleBar.border": "#141414",
     "titleBar.inactiveBackground": "#020202",
     "tree.indentGuidesStroke": "#1d1d1d",
+    "toolbar.hoverBackground": "#020202",
+    "toolbar.hoverOutline": "#5c5c5c",
     "window.activeBorder": "#141414",
     "listFilterWidget.noMatchesOutline": "#ff603f",
     "list.errorForeground": "#ff603f",

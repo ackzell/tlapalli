@@ -237,7 +237,9 @@
     "keybindingLabel.border": "#ebe6e5",
     "keybindingLabel.bottomBorder": "#ebe6e5",
     "descriptionForeground": "#d2a47b",
-    "list.hoverForeground": "#704f26"
+    "list.hoverForeground": "#704f26",
+    "toolbar.hoverBackground": "#faf8f6",
+    "toolbar.hoverOutline": "#b1997f"
   },
   "tokenColors": [
     {
