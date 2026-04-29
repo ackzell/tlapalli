@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.1.0](https://github.com/ackzell/tlapalli-vscode-theme/compare/v1.0.1...v1.1.0) (2026-04-29)
+
+
+### Features
+
+* **05-amethyst:** Updating colors for selection. Better matching the hue. ([27b362a](https://github.com/ackzell/tlapalli-vscode-theme/commit/27b362a596fc65b55c64ca04028a9ce2a5d7dc3e))
+* **05-amethyst:** Updating list.hoverBackground with an existing color from the palette ([c71dcaf](https://github.com/ackzell/tlapalli-vscode-theme/commit/c71dcaf694ee1a3865bfbb0827d51d432872f6a4))
+* **l-00-obsidian-light:** Updating selection colors with an existing color from the palette ([953a651](https://github.com/ackzell/tlapalli-vscode-theme/commit/953a6518d1f2693e97a3a8a27bbcde9752224c94))
+* **l-05-amethyst-light:** Updating colors for selection. Better matching the hue (inverted from dark mode) ([84a2ac2](https://github.com/ackzell/tlapalli-vscode-theme/commit/84a2ac222918bd748b15ddd3247a5207ad31a14c))
+* **l-05-amethyst-light:** Updating list.hoverBackground with an existing color from the palette ([5a3abe2](https://github.com/ackzell/tlapalli-vscode-theme/commit/5a3abe2425723f140f6c67874bf5ade45fc66aed))
+* **themes:** Adding styles to the toolbar buttons. ([cb6808d](https://github.com/ackzell/tlapalli-vscode-theme/commit/cb6808de73ca9332632bc14c0003248a856fcd31))
+* **themes:** updating list.focusBackground ([b14f0dd](https://github.com/ackzell/tlapalli-vscode-theme/commit/b14f0dd7cf7b83f8c3fd0d35d467fe64b9c40082))
+
+
+### Bug Fixes
+
+* **themes:** Colorizing buttons ([565801d](https://github.com/ackzell/tlapalli-vscode-theme/commit/565801df3f7be3db4c1615f186044aff0fa2d874))
+* **themes:** Updating icon.foreground to improve contrast ([5380bf9](https://github.com/ackzell/tlapalli-vscode-theme/commit/5380bf90b4d7395b6bcea1954b4d27baafc8a074))
+
 ## [1.0.1](https://github.com/ackzell/tlapalli-vscode-theme/compare/v1.0.0...v1.0.1) (2026-04-23)
 
 
