@@ -10,3 +10,5 @@ pnpm-lock.yaml
 **/*.svg
 **/*.ts
 **/*.sh
+
+zed-themes/

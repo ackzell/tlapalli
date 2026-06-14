@@ -47,7 +47,9 @@
     "invert": "npx tsx theme-inverter.ts",
     "extract-keys": "npx tsx theme-key-extractor.ts",
     "update-key": "npx tsx theme-key-updater.ts",
-    "update-key:all": "npx tsx theme-key-updater-all.ts"
+    "update-key:all": "npx tsx theme-key-updater-all.ts",
+    "zed:generate-theme": "npx tsx scripts/generate-zed-themes.ts",
+    "zed:install-locally": "cp zed-themes/tlapalli.json ~/.config/zed/themes/tlapalli.json"
   },
   "devDependencies": {
     "commit-and-tag-version": "^12.6.1",
