@@ -4,7 +4,7 @@
 
 <p align="center">
   <br>
-  <img src="logo.jpg" alt="tlapalli-vscode-theme logo" height="300"  />
+  <img src="logo.jpg" alt="tlapalli-vscode-theme logo" width="300" />
 </p>
 
 <h3 align="center">VSCode Marketplace</h3>
@@ -38,7 +38,15 @@
     </a>
 </p>
 
-A collection of monochromatic dark and light themes in different hues. Each theme uses lightness and font styles (like _italic_ or **bold**) to distinguish tokens, rather than relying on multiple colors to do the job.
+<p align="center">
+    Wanna see the origin story?
+    <br>
+    <a href="https://youtu.be/DhDsVio-k6Q">
+        <img width="500" alt="thumbnail for the youtube video" src="https://img.youtube.com/vi/DhDsVio-k6Q/0.jpg" />
+    </a>
+</p>
+
+A collection of monochromatic dark and light themes in different hues. Each theme uses lightness and font styles (actually, just _italic_) to distinguish tokens, rather than relying on multiple colors to do the job.
 
 Dark themes are especially useful (to me) when working in a low light environment. The idea is not to have excessive contrast on the text, but also be able to have a darker background.
 
@@ -125,3 +133,4 @@ They are essentially the "inverse" of the dark themes, with a few manual changes
 ## l-07: Fire Opal Light
 
 <img width="100%" alt="fire opal light" src="./docs/images/fireOpalLight.png" />
+
