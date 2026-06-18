@@ -21,6 +21,7 @@ interface PackageJsonTheme {
 }
 
 interface PackageJson {
+  description?: string;
   contributes?: {
     themes?: PackageJsonTheme[];
   };
@@ -64,7 +65,11 @@ function main() {
 
     console.error(`Converting: ${vscode.name}`);
 
-    const zedEntry = vscodeToZedEntry(vscode, cursorPalette);
+    const zedEntry = vscodeToZedEntry(vscode, cursorPalette) as Record<string, unknown>;
+    const style = zedEntry["style"] as Record<string, string>;
+
+
+
     zedThemes.push(zedEntry);
   }
 
@@ -72,6 +77,7 @@ function main() {
     $schema: "https://zed.dev/schema/themes/v0.2.0.json",
     name: "Tlapalli",
     author: "ackzell",
+    description: pkg.description,
     themes: zedThemes,
   };
 

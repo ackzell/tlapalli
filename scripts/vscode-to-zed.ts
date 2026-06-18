@@ -58,8 +58,7 @@ const VSCODE_TO_ZED: Record<string, string> = {
   // Icons
   "icon.foreground": "icon",
 
-  // Editor gutter
-  "editorGutter.background": "editor.gutter.background",
+  // Editor gutter (ignored — set to editor.background in post-processing)
   "editorLineNumber.foreground": "editor.line_number",
   "editorLineNumber.activeForeground": "editor.active_line_number",
 
@@ -105,11 +104,10 @@ const VSCODE_TO_ZED: Record<string, string> = {
   "gitDecoration.modifiedResourceForeground": "version_control.modified",
   "gitDecoration.deletedResourceForeground": "version_control.deleted",
   "gitDecoration.untrackedResourceForeground": "version_control.added",
-  "gitDecoration.ignoredResourceForeground": "version_control.word_deleted",
   "gitDecoration.conflictingResourceForeground": "conflict",
 
   // Diagnostic / status colors
-  "editorError.foreground": "error",
+  "list.errorForeground": "error",
   "editorWarning.foreground": "warning",
   "editorInfo.foreground": "info",
 };
@@ -316,6 +314,60 @@ function mixColors(hex1: string, hex2: string, ratio: number): string {
   );
 }
 
+function rgbToHsl(r: number, g: number, b: number): [number, number, number] {
+  r /= 255; g /= 255; b /= 255;
+  const mx = Math.max(r, g, b), mn = Math.min(r, g, b);
+  let h = 0, s = 0;
+  const l = (mx + mn) / 2;
+  if (mx !== mn) {
+    const d = mx - mn;
+    s = l > 0.5 ? d / (2 - mx - mn) : d / (mx + mn);
+    if (mx === r) h = ((g - b) / d + (g < b ? 6 : 0)) / 6;
+    else if (mx === g) h = ((b - r) / d + 2) / 6;
+    else h = ((r - g) / d + 4) / 6;
+  }
+  return [h * 360, s * 100, l * 100];
+}
+
+function hslToRgb(h: number, s: number, l: number): [number, number, number] {
+  h /= 360; s /= 100; l /= 100;
+  if (s === 0) { const v = Math.round(l * 255); return [v, v, v]; }
+  const hue2rgb = (p: number, q: number, t: number) => {
+    if (t < 0) t += 1;
+    if (t > 1) t -= 1;
+    if (t < 1/6) return p + (q - p) * 6 * t;
+    if (t < 1/2) return q;
+    if (t < 2/3) return p + (q - p) * (2/3 - t) * 6;
+    return p;
+  };
+  const q = l < 0.5 ? l * (1 + s) : l + s - l * s;
+  const p = 2 * l - q;
+  return [
+    Math.round(hue2rgb(p, q, h + 1/3) * 255),
+    Math.round(hue2rgb(p, q, h) * 255),
+    Math.round(hue2rgb(p, q, h - 1/3) * 255),
+  ];
+}
+
+// Shift a hex color to targetHue degrees, ensuring saturation between minSat
+// and maxSat. lightCap clamps lightness upward when the base is too dark.
+function tintToHue(hex: string, targetHue: number, minSat: number, lightCap?: number, maxSat?: number): string {
+  const [r, g, b] = parseHex(hex);
+  const [, s, l] = rgbToHsl(r, g, b);
+  const sat = Math.min(Math.max(s, minSat), maxSat ?? 100);
+  const light = lightCap !== undefined ? l + (lightCap - l) * 0.6 : l;
+  const [nr, ng, nb] = hslToRgb(targetHue, sat, light);
+  return toHex(nr, ng, nb);
+}
+
+// Rotate a hex color to targetHue degrees, preserving saturation and lightness.
+function shiftHue(hex: string, targetHue: number): string {
+  const [r, g, b] = parseHex(hex);
+  const [, s, l] = rgbToHsl(r, g, b);
+  const [nr, ng, nb] = hslToRgb(targetHue, s, l);
+  return toHex(nr, ng, nb);
+}
+
 function parseFontStyle(fontStyle: string | undefined): string | null {
   if (!fontStyle || fontStyle === "") return null;
   if (fontStyle === "italic" || fontStyle === "bold")
@@ -389,6 +441,18 @@ export function vscodeToZedEntry(
   if (!style["text"]) {
     const ef = vscodeColors["editor.foreground"];
     if (ef) style["text"] = to8DigitHex(ef);
+  }
+
+  // Dark themes: use editor.foreground for text so tab text is bright
+  if (isDark) {
+    const ef = vscodeColors["editor.foreground"];
+    if (ef) style["text"] = to8DigitHex(ef);
+    // Dim text.muted further for better hierarchy against bright text
+    const muted = style["text.muted"] as string | undefined;
+    if (muted) {
+      const bg = (style["editor.background"] as string ?? "#000000ff").slice(0, 7);
+      style["text.muted"] = mixColors(muted.slice(0, 7), bg, 0.30) + "ff";
+    }
   }
 
   // Fill remaining Zed keys with best-guess fallbacks from VS Code values
@@ -478,7 +542,6 @@ export function vscodeToZedEntry(
   const edBgHex = (style["editor.background"] as string ?? "#000000ff").slice(0, 7);
   const mixRatio = 0.12; // 12% white/black blend for a subtle but visible highlight
   const highlightBase = mixColors(edBgHex, isDark ? "#ffffff" : "#000000", mixRatio);
-  style["editor.active_line.background"] = highlightBase + "bf";  // 75% opacity
   style["editor.highlighted_line.background"] = highlightBase + "ff";
 
   // --- Focus border ---
@@ -555,6 +618,121 @@ export function vscodeToZedEntry(
 
   // --- Debugger accent ---
   style["debugger.accent"] = style["text.accent"] ?? style["text"] ?? fallbackFg;
+
+  // --- Version control gutter indicators ---
+  const vcsBase = (style["editor.foreground"] as string ?? fallbackFg).slice(0, 7);
+  const gcMinL = isDark ? undefined : 48;
+  const vcsSat = isDark ? 30 : 40;
+  const wordSat = isDark ? 45 : 55;
+  style["version_control.added"]       = tintToHue(vcsBase, 120, vcsSat, gcMinL) + "ff";
+  style["version_control.modified"]    = tintToHue(vcsBase,  40, vcsSat, gcMinL) + "ff";
+  style["version_control.deleted"]     = tintToHue(vcsBase,   0, vcsSat, gcMinL) + "ff";
+  style["version_control.word_added"]  = tintToHue(vcsBase, 120, wordSat, gcMinL) + "ff";
+  style["version_control.word_deleted"] = tintToHue(vcsBase,   0, wordSat, gcMinL) + "ff";
+
+
+
+  // --- Diagnostic gutter markers ---
+  const diagMinL = isDark ? undefined : 48;
+  const errWarnMinL = isDark ? undefined : 55;
+  const errWarnSat = isDark ? 45 : 50;
+  const infoSat = isDark ? 35 : 40;
+  style["warning"] = tintToHue(vcsBase,  40, errWarnSat, errWarnMinL) + "ff";
+  style["info"]    = tintToHue(vcsBase, 210, infoSat, diagMinL) + "ff";
+
+  // Gutter background: match editor background (no contrast separation)
+  style["editor.gutter.background"] = style["editor.background"] ?? fallbackBg;
+
+  // Gold dark: push modified/warning near-white to distinguish from amber UI
+  if (isDark && vscode.name?.includes("Gold")) {
+    const nearWhite = "#f0e6d0ff";
+    style["version_control.modified"] = nearWhite;
+    style["warning"] = nearWhite;
+  }
+
+  // Quartz dark: cap saturation so pink fg doesn't produce neon indicators
+  if (isDark && vscode.name?.includes("Quartz")) {
+    style["version_control.added"]    = tintToHue(vcsBase, 120, 18, 60, 22) + "ff";
+    style["version_control.modified"] = "#d4c080ff";
+    style["version_control.deleted"]  = tintToHue(vcsBase,   0, 18, 55, 22) + "ff";
+    style["warning"]   = style["version_control.modified"] as string;
+  }
+
+  // Amethyst dark: mute green, pale yellow
+  if (isDark && vscode.name?.includes("Amethyst")) {
+    style["version_control.added"]    = tintToHue(vcsBase, 120, 18, undefined, 22) + "ff";
+    style["version_control.modified"] = tintToHue(vcsBase,  40, 15, 72, 20) + "ff";
+    style["warning"]   = style["version_control.modified"] as string;
+  }
+
+  // Fire Opal dark: mute green, pale yellow (error already white)
+  if (isDark && vscode.name?.includes("Fire Opal")) {
+    style["version_control.added"]    = tintToHue(vcsBase, 120, 18, undefined, 22) + "ff";
+    style["version_control.modified"] = tintToHue(vcsBase,  40, 15, 72, 20) + "ff";
+    style["warning"]   = style["version_control.modified"] as string;
+  }
+
+  // Jade dark: push green near-white to contrast against teal-green UI
+  if (isDark && vscode.name?.includes("Jade")) {
+    style["version_control.added"] = "#e6f0e6ff";
+  }
+
+  // Obsidian Light: increase saturation of VCS/diagnostic indicators
+  if (!isDark && vscode.name?.includes("Obsidian")) {
+    const obsVcsSat = 50;
+    const obsWordSat = 60;
+    const obsAdded = tintToHue(vcsBase, 120, obsVcsSat, gcMinL);
+    style["version_control.added"]       = obsAdded + "ff";
+    style["version_control.modified"]    = "#b87f0dff";
+    style["version_control.deleted"]     = tintToHue(vcsBase,   0, obsVcsSat, gcMinL) + "ff";
+    style["version_control.word_added"]  = tintToHue(vcsBase, 120, obsWordSat, gcMinL) + "ff";
+    style["version_control.word_deleted"] = tintToHue(vcsBase,   0, obsWordSat, gcMinL) + "ff";
+    style["warning"]   = "#b87f0dff";
+  }
+
+  // Gold Light: darker modified/warning to stand out against warm fg
+  if (!isDark && vscode.name?.includes("Gold")) {
+    style["version_control.modified"] = tintToHue(vcsBase, 40, 40, undefined) + "ff";
+    style["warning"]  = style["version_control.modified"] as string;
+  }
+
+  // Turquoise Light: use the same green as dark Turquoise for added/created
+  if (!isDark && vscode.name?.includes("Turquoise")) {
+    style["version_control.added"] = "#69ae69ff";
+  }
+
+  // Light themes: final overrides (after per-theme blocks)
+  if (!isDark) {
+    style["info"] = "#1C77FFFF";
+  }
+
+  // version_control.deleted: fixed red for all themes
+  style["version_control.deleted"] = "#C71A1AFF";
+
+  // warning: fixed VS Code list.warningForeground for all themes
+  style["warning"] = isDark ? "#ffb450ff" : "#af6400ff";
+
+  // --- Plain diff indicator keys (created/modified/deleted) ---
+  // created: lighter/darker than the sidebar file listing color
+  const sideBarFg = vscodeColors["sideBar.foreground"];
+  if (sideBarFg) {
+    const base = sideBarFg.slice(0, 7);
+    const blend = isDark ? "#ffffff" : "#000000";
+    style["created"] = mixColors(base, blend, isDark ? 0.70 : 0.90) + "ff";
+  }
+  // modified: use VS Code's list.warningForeground
+  const listWarnFg = vscodeColors["list.warningForeground"];
+  if (listWarnFg) {
+    style["modified"] = to8DigitHex(listWarnFg);
+  }
+  // deleted: keep aliased to version_control.deleted
+  style["deleted"] = style["version_control.deleted"] as string;
+
+  // version_control.modified: fixed blue for all themes
+  style["version_control.modified"] = "#2090d3ff";
+
+  // version_control.added: fixed git green for all themes
+  style["version_control.added"] = "#487e02ff";
 
   // --- Syntax tokens ---
   const syntax: Record<string, ZedSyntaxEntry> = {};
