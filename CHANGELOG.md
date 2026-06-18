@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.2.0](https://github.com/ackzell/tlapalli-vscode-theme/compare/v1.1.1...v1.2.0) (2026-06-18)
+
+
+### Features
+
+* **dark-themes:** bumping the contrast for line numbers and active line numbers against the background ([2802679](https://github.com/ackzell/tlapalli-vscode-theme/commit/2802679419e5b851f603ccab4f9c6a61aabe6741))
+
 ## [1.1.1](https://github.com/ackzell/tlapalli-vscode-theme/compare/v1.1.0...v1.1.1) (2026-06-11)
 
 ## [1.1.0](https://github.com/ackzell/tlapalli-vscode-theme/compare/v1.0.1...v1.1.0) (2026-04-29)
