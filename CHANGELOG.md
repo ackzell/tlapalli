@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.2.1](https://github.com/ackzell/tlapalli-vscode-theme/compare/v1.2.0...v1.2.1) (2026-08-21)
+
+
+### Bug Fixes
+
+* **themes:** Fixing highlight coloring for the matches when searching on the editor and the terminal ([ab16ed8](https://github.com/ackzell/tlapalli-vscode-theme/commit/ab16ed85936d0e74a03f0802de5c294654d8aba3))
+
 ## [1.2.0](https://github.com/ackzell/tlapalli-vscode-theme/compare/v1.1.1...v1.2.0) (2026-06-18)
 
 
