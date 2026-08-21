@@ -40,7 +40,7 @@
     "dropdown.background": "#faf5f9",
     "dropdown.foreground": "#7a0028af",
     "editor.background": "#faf5f9",
-    "editor.findMatchBackground": "#faf5f9",
+    "editor.findMatchBackground": "#94264f",
     "editor.findMatchBorder": "#94264f",
     "editor.findMatchHighlightBackground": "#faf5f97c",
     "editor.findMatchHighlightBorder": "#d2b8c8",
@@ -238,12 +238,20 @@
     "descriptionForeground": "#7a0028af",
     "list.hoverForeground": "#73002c",
     "toolbar.hoverBackground": "#faf5f9",
-    "toolbar.hoverOutline": "#bb779a"
+    "toolbar.hoverOutline": "#bb779a",
+    "terminal.findMatchBackground": "#94264f",
+    "terminal.findMatchBorder": "#faf5f9",
+    "terminal.findMatchHighlightBackground": "#faf5f97c",
+    "terminal.findMatchHighlightBorder": "#d2b8c8",
+    "editor.findMatchHighlightForeground": "#faf5f9"
   },
   "tokenColors": [
     {
       "name": "JSON Key",
-      "scope": ["support.type.property-name.json", "meta.object-literal.key"],
+      "scope": [
+        "support.type.property-name.json",
+        "meta.object-literal.key"
+      ],
       "settings": {
         "foreground": "#990047"
       }
